@@ -1,0 +1,139 @@
+.how {
+  height: 100vh;
+  background-color: #84bcda;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    font-size: 3rem;
+    color: #d5dfe5;
+    margin: 5rem;
+  }
+
+  .box-container {
+    width: 60%;
+    height: 70%;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+  }
+  .picture {
+    flex: 1;
+    background: url(./img/together.jpg);
+    background-repeat: none;
+    background-size: cover;
+    padding-right: 4rem;
+  }
+  .services {
+    // margin: 0 0 0 1.5rem;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #tag-line {
+      align-self: flex-start;
+      padding: 0 1.5rem;
+      margin-top: 1rem;
+    }
+
+    p {
+      margin: 1rem 0 2rem 0;
+      font-size: 1.5rem;
+      padding: 0 1.5rem;
+      // visibility: hidden;
+      color: rgb(8, 63, 63);
+      line-height: 1.2222;
+    }
+
+    .diff-services {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      // justify-content: space-around;
+      // background-color: green;
+      font-size: 2rem;
+      font-weight: 650;
+      color: purple;
+      margin: 0 1.5rem;
+
+      div {
+        flex: 1;
+        color: #84bcda;
+        
+        text-align: center;
+        h1 {
+          // margin: 0 10rem 0 0;
+          padding: 0 10rem 0 10rem;
+          font-size: 2rem;
+        }
+        padding: 1rem;
+      }
+
+      //   .customer,
+      //   .business {
+      //     flex: 1;
+      //   }
+      .customer {
+        border-bottom: 0.5rem solid plum;
+        margin-right: 1rem;
+      }
+      .business {
+        margin-left: 1rem;
+      }
+    }
+
+    .benefits {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+      .buns {
+        width: 30rem;
+        height: 15rem;
+        // background-color: #84bcda;
+        margin: 0 0.5rem 1rem 0.5rem;
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        border-radius: 1%;
+        box-shadow: 0 0 0.5rem rgb(78, 78, 143);
+        .icon {
+          flex: 1;
+        }
+        .context {
+          padding: 0.5rem;
+          flex: 2;
+          font-weight: 550;
+          font-size: 1.5rem;
+          color: rgb(8, 63, 63);
+        }
+      }
+    }
+
+    .download {
+      align-items: center;
+      margin: 1rem 0;
+      background-color: purple;
+      height: 4rem;
+      width: 60rem;
+      text-align: center;
+      border-radius: 0.7rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+// #businessdeal {
+//   visibility: off;
+// }

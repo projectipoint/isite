@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import 'home';
+@import 'how';
+@import 'contact';
+//DEFAULTS
+html {
+    font-size: 69%;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 7rem;
+}
+h3 {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,49 @@
+.contact {
+    height: 40vh;
+    background-color: rgb(78, 78, 143);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .contact-container {
+        text-align: center;
+        h2 {
+            padding: 3rem 0;
+        }
+        .team {
+            padding: 3rem 0;
+            display: flex;
+            flex-wrap: wrap;
+
+            .nosimo, .tebogo, .obakeng, .zimvo {
+                margin: 0 2rem;
+                h3, p {
+                    // letter-spacing: 0.2222rem;
+                    color: grey;
+                }
+
+                h3 {
+                    font-size: 2rem;
+                }
+                p {
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                    color: black;
+                }
+
+                .contact-info {
+                    display: flex;
+                    flex-direction: column;
+                    a {
+                        text-decoration: none;
+                        padding: 0.3rem;
+                        color: whitesmoke;
+                        font-weight: bold;
+                        letter-spacing: 0.1rem;
+                        font-size: medium;
+                    }
+                }
+            } 
+        }
+    }
+}
